@@ -288,28 +288,7 @@ Guidelines:
         )
 
         await aurite.register_agent(visualization_agent_config)
-        #---workflow---
-        
-    #     workflow = WorkflowConfig(
-            
-    #         name="data analysis workflow",
-    #         steps=[ "news_agent","database_agent","visualization_agent"],
-    #         description="Perform data analysis and news analysis."
-
-    #     )
-
-    #     await aurite.register_workflow(workflow)
-    #     sample_content="""
-    #     What is the market size of smartphone in the US. what's the top three brand of smartphone in 2024.
-        
-        
-    #     """
-
-    #     workflow_result = await aurite.run_workflow(
-    #     workflow_name="data analysis workflow",
-    #     initial_input=sample_content
-    # )
-    #     print(workflow_result.final_message)
+       
 
         user_query = "What is the market size of smartphone in the US. what's the top three brand of smartphone in 2024."
         user_query1 = '''
