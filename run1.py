@@ -39,7 +39,7 @@ async def main():
              capabilities=['tools'],
 
         )
-        # await aurite.register_client(mcp_server_config)
+        await aurite.register_client(mcp_server_config)
         
 
         database_mcp_config = ClientConfig(
@@ -47,7 +47,7 @@ async def main():
             http_endpoint="https://server.smithery.ai/@supabase-community/supabase-mcp/mcp?api_key={SMITHERY_API_KEY}&profile={SMITHERY_PROFILE_ID}",
             capabilities=["tools"]
         )
-        # await aurite.register_client(database_mcp_config)
+        await aurite.register_client(database_mcp_config)
         
     
 
